@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.col-2 {
+  margin: 0.5rem;
+}
+
+.col-4 {
+  display: flex;
+}
+.radiusbutton {
+  background-color: #009edd;
+  border-radius: 42px;
+  border: 2px solid #7fcfee;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  padding: 10px 11px;
+  text-decoration: none;
+}
+.radiusbutton:hover {
+  background-color: #99daf1;
+  border: 2px solid #7fcfee;
+}
+.radiusbutton:active {
+  position: relative;
+  top: 1px;
+}
+.NewUserButton {
+  background-color: #009edd;
+  border: 2px solid #7fcfee;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+}
+.NewUserButton:hover {
+  background-color: #99daf1;
+  border: 2px solid #7fcfee;
+}
+.NewUserButton:active {
+  position: relative;
+  top: 1px;
+}
+.CancelButton {
+  color: #dc3545;
+  padding: 0.6rem;
+  border-radius: 20px;
+}
+.EditButton {
+  color: #0d6efd;
+  margin-right: 3rem;
+  margin-left: 1rem;
+  padding: 0.6rem;
+  border-radius: 20px;
+}
+
+.CurrentPageButton {
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
